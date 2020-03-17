@@ -1,4 +1,4 @@
-// Create variables for the welcome message
+// Create new variables for the welcome message
 var greeting, name, message, sign, welcome, tiles, subTotal, shipping, grandTotal;
 // Concatenate the three variables above to create the welcome message
 console.log(greeting,name,message,sign);
@@ -34,9 +34,9 @@ function setTextContentById(getId, setText)
 
 function setValueContentById(getId, setText) 
 {
-  // Get the element that has an id of greeting
+  // Get the element that has greeting
   var el = document.getElementById(getId);
-  // Replace the content of that element with the personalized welcome message
+  // Replace the content with the personalized welcome message
   el.textContent = "$"+setText;
   console.log("setValue Worked");
 }
